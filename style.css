@@ -1,0 +1,162 @@
+/* Remove default margins and set a global font style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e0e0e0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Splash section styling */
+.splash {
+    background-image: linear-gradient(to bottom right, #0073e6, #00c6ff);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.splash h1 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+.splash img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+/* Section headers styling */
+h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Lists styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+/* Links styling */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Project cards styling */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact page styling */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}

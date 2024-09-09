@@ -1,0 +1,105 @@
+/* Remove default page margins */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style navigation */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Splash section */
+.splash {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+/* Headshot image style */
+.splash img {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+/* Style h1 with Google Font and color */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Address paragraph style */
+.splash p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Horizontal rule style */
+hr {
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* Section headings style */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+}
+
+/* Style unordered list */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Style the description list with grid layout */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+/* Links styles */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Project section with grid layout */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
